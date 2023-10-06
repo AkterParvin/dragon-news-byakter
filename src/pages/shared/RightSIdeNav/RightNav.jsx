@@ -1,5 +1,5 @@
 import { BiLogoGoogle, BiLogoGithub, BiLogoFacebookCircle, BiLogoInstagramAlt } from 'react-icons/Bi';
-import { AiFillTwitterCircle } from 'react-icons/Ai';
+// import { AiFillTwitterCircle } from 'react-icons/Ai';
 import qzone1 from '../../../assets/qZone1.png';
 import qzone2 from '../../../assets/qZone2.png';
 import qzone3 from '../../../assets/qZone3.png';
@@ -33,7 +33,7 @@ const RightNav = () => {
                 </button>
 
                 <button className='w-full border-x border-zinc-700 py-2 px-5 text-zinc-800  flex items-center'>
-                    <AiFillTwitterCircle className='text-4xl bg-slate-300 rounded-full p-2 text-sky-500 mr-3'></AiFillTwitterCircle>
+                    {/* <AiFillTwitterCircle className='text-4xl bg-slate-300 rounded-full p-2 text-sky-500 mr-3'></AiFillTwitterCircle> */}
                     <p className='font-medium'>Twitter</p>
                 </button>
                 <button className='w-full border border-zinc-700 py-2 px-5 text-zinc-800  flex items-center rounded-b-lg '>
