@@ -1,5 +1,5 @@
-import { BiLogoGoogle, BiLogoGithub, BiLogoFacebookCircle, BiLogoInstagramAlt } from 'react-icons/Bi';
-// import { AiFillTwitterCircle } from 'react-icons/Ai';
+// import { BiLogoGoogle, BiLogoGithub, BiLogoFacebookCircle, BiLogoInstagramAlt } from 'react-icons/Bi';
+import { AiFillTwitterCircle } from 'react-icons/Ai';
 import qzone1 from '../../../assets/qZone1.png';
 import qzone2 from '../../../assets/qZone2.png';
 import qzone3 from '../../../assets/qZone3.png';
@@ -12,11 +12,11 @@ const RightNav = () => {
             <div className='p-4'>
                 <h2 className="text-xl font-semibold text-zinc-700 my-2">Login With</h2>
                 <button className='w-full btn btn-outline rounded-lg text-blue-700 mb-2'>
-                    <BiLogoGoogle className='text-xl bg-'></BiLogoGoogle>
+                    {/* <BiLogoGoogle className='text-xl bg-'></BiLogoGoogle> */}
                     <p>Login With Google</p>
                 </button>
                 <button className='w-full btn btn-outline rounded-lg text-neutral-800'>
-                    <BiLogoGithub className='text-2xl bg-'></BiLogoGithub>
+                    {/* <BiLogoGithub className='text-2xl bg-'></BiLogoGithub> */}
                     Login With Github
                 </button>
 
@@ -28,16 +28,16 @@ const RightNav = () => {
             <div className='mb-5 p-4'>
                 <h2 className="text-xl font-semibold text-zinc-700 mt-7 mb-5">Find Us On</h2>
                 <button className='w-full border border-zinc-700 py-2 px-5 text-zinc-800 rounded-t-lg flex items-center'>
-                    <BiLogoFacebookCircle className='text-4xl bg-slate-300 rounded-full p-2 text-blue-700 mr-3'></BiLogoFacebookCircle>
+                    {/* <BiLogoFacebookCircle className='text-4xl bg-slate-300 rounded-full p-2 text-blue-700 mr-3'></BiLogoFacebookCircle> */}
                     <p className='font-medium'>Facebook</p>
                 </button>
 
                 <button className='w-full border-x border-zinc-700 py-2 px-5 text-zinc-800  flex items-center'>
-                    {/* <AiFillTwitterCircle className='text-4xl bg-slate-300 rounded-full p-2 text-sky-500 mr-3'></AiFillTwitterCircle> */}
+                    <AiFillTwitterCircle className='text-4xl bg-slate-300 rounded-full p-2 text-sky-500 mr-3'></AiFillTwitterCircle>
                     <p className='font-medium'>Twitter</p>
                 </button>
                 <button className='w-full border border-zinc-700 py-2 px-5 text-zinc-800  flex items-center rounded-b-lg '>
-                    <BiLogoInstagramAlt className='text-4xl text-rose-600 p-2 bg-slate-300 rounded-full mr-3'></BiLogoInstagramAlt>
+                    {/* <BiLogoInstagramAlt className='text-4xl text-rose-600 p-2 bg-slate-300 rounded-full mr-3'></BiLogoInstagramAlt> */}
                     <p className='font-medium'>Instagram</p>
                 </button>
             </div>
